@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.bg-black {
+  background-color: black !important;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.container {
+  max-width: 60% !important;
+  padding: 2em !important; 
+  border: solid 1px #0000002b;
+  border-radius: 5px;
+}
+
+.register-content {
+  max-width: 45% !important;
+}
+
+.nearvision-text{
+  display: none;
+}
+
+#nv-text-1 {
+  font-size: 30px;
+  text-align: center;
+}
+#nv-text-2 {
+  font-size: 24px;
+  text-align: center;
+}
+#nv-text-3 {
+  font-size: 18px;
+  text-align: center;
+}
+#nv-text-4 {
+  font-size: 12px;
+  text-align: center;
+}
+#nv-text-5 {
+  font-size: 8px;
+  text-align: center;
+}
+#nv-text-6 {
+  font-size: 7px;
+  text-align: center;
+}
+.test-heading {
+  color:white;
+  text-align: center;
+  font-size: xx-large;
+  padding-bottom: 1%;
+}
+
+.btn-test {
+  background-color: black !important;
+  margin: 2% !important;
+  border-color: white !important;
+  width: 25%;
+}
+
+.center-aligna {
+  text-align: center;
+}
+
+.visiondata {
+  width: 75% !important; 
+  margin-left: 12.5% !important;
+  border: #458cd2 1px solid !important;
+}
+
+.red {
+  color: red;
+  font-size: large;
+  font-weight: bold;
+}
+
+.item-center {
+  margin: auto;
+}
+
+.for-width {
+  max-width: 100% !important;
+}
+
+#signin-img {
+  width:100%;
+}
+
+#nav-height{
+  height: 15vh;
+}
+
+#instructions {
+    font-weight: bold;
+    font-size: large;
+    color: red;
+}
+
+.colortest-img-div {
+  display: flex;
+}
+
+.colortest-img {
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+
+.margin-top {
+  margin-top: 5%;
+}
+
+.testing-hall {
+  margin-bottom: 5%;
+}
+
+.doc-list {
+  max-width: 100% !important;
+}
+
+.appointment-btn{
+  color: black !important;
+  background-color: aliceblue !important;
+}
