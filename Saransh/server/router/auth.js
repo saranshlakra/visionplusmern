@@ -8,9 +8,11 @@ require("../database/conn");
 const User = require("../models/userDataSchema");
 const { application } = require("express");
 
-router.get("/", (req, res) => {
-  res.send("Hello from the server router js");
-});
+
+// during build code not for production (heroku hosting)
+// router.get("/", (req, res) => {
+//   res.send("Hello from the server router js");
+// });
 
 router.post("/register", (req, res) => {
   // console.log(req.body);
