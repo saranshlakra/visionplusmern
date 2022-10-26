@@ -288,7 +288,7 @@ function TestPage() {
     }
   };
   useEffect(() => {
-    CallTestPage1();
+//     CallTestPage1();
   }, []);
 
   // const [visiontest, setvisiontest] = useState(false);
