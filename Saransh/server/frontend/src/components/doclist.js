@@ -46,7 +46,7 @@ const Visiontest = () => {
                           </tr>
                           <tr>
                             <br></br>
- <button className='btn btn-primary appointment-btn' data-url={`/${list.aplink}`}>Get Appointment</button>
+//  <button className='btn btn-primary appointment-btn' data-url={`/${list.aplink}`}>Get Appointment</button>
           }
                           </tr>
                         </tbody>
