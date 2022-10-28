@@ -54,8 +54,7 @@ const Visiontest = () => {
             })
              <button className='btn btn-primary appointment-btn' href={`/${list.aplink}`}>Get Appointment</button>
           }
-        </div>  
-// <button className='btn btn-primary appointment-btn'> <a href={https://calendly.com/graphixreaction/eye-health-checkup}>Get Appointment</a></button>
+        </div> 
     </div>
   )
 }
