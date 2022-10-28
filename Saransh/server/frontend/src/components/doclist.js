@@ -52,7 +52,7 @@ const Visiontest = () => {
                 </div>
               )
             })
-             <button className='btn btn-primary appointment-btn' href={`/${list.aplink}`}>Get Appointment</button>
+//              <button className='btn btn-primary appointment-btn' href={`/${list.aplink}`}>Get Appointment</button>
           }
         </div>  
     </div>
