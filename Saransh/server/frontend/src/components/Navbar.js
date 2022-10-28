@@ -95,13 +95,14 @@ const Navbar = () => {
 
               {/* <button>{app}</button> */}
 
-              {<a
+              <a
                 target="_blank"
                 className="btn btn-outline-success App"
                 href="https://calendly.com/graphixreaction/eye-health-checkup?month=2022-10"
+                style="margin-right: 5px"
               >
                 BOOK APPOINTMENT{" "}
-              </a>}
+              </a>
               
                <NavLink
                 className="btn btn-outline-success App"
